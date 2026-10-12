@@ -227,7 +227,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/orders`,
+        `${import.meta.env.VITE_API_URL || "https://noir-restaurant.onrender.com"}/api/orders`,
         {
           method: "POST",
           headers: {
